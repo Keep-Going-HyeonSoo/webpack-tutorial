@@ -1,2 +1,2 @@
-var word = 'World'
+const word = 'World'
 export default word

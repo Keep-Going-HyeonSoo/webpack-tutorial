@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Keep-Going-HyeonSoo/webpack-test#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
     "eslint": "^7.16.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -24,7 +25,10 @@
     "html-webpack-plugin": "^5.0.0-beta.1",
     "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.1"
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }

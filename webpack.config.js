@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   mode: 'development', // default 는 production 모드
@@ -32,6 +33,7 @@ module.exports = {
       template: './source/about.html',
       filename: './about.html',
       chunks: ['about']
-    })
-  ]
+    }),
+    new CleanWebpackPlugin()
+  ],
 }
